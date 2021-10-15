@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .h1{text-align: center;
+            color: orange;
+        }
+        .survey th{
+            text-align: right;
+        }
+        .survey th{
+            color: blue;
+        }
+        .survey td{
+            color: tomato;
+        }
+        .survey{
+            width: 65%;
+            border-collapse: collapse;
+        }
+        .table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        h1 {text-align: center;
+            background-color: orangered;
+            color: white;
+        }
+    </style>
+</head>
+<!--Phần 1:Hobby -->
+<body>
+    
+    <form action="">
+    <table class="survey">
+        <h1>Sở thích của bạn</h1>
+    <tr>
+        <th>Họ và tên </th>
+        <td><input type="text" name="yourname"></td>
+    </tr>
+    <tr>
+        <th>Email </th>
+        <td><input type="email" name="email"></td>
+    </tr>
+    <tr>
+        <th>Sở thích </th>
+        <td><input type="checkbox" name="hobby">Thể thao</td>
+        <td><input type="checkbox" name="hobby">Âm nhạc</td>
+        <td><input type="checkbox" name="hobby">Đọc sách</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="checkbox" name="hobby">Lướt web</td>
+        <td><input type="checkbox" name="hobby">Chơi game</td>
+        <td><input type="checkbox" name="hobby">Điện ảnh</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="checkbox" name="hobby" id="">Du lịch</td>
+    </tr><br>
+    <tr>
+        <td></td>
+        <td><button type="submit">Gửi thông tin</button></td>
+        <td><button type="reset">Nhập lại</button></td>
+    </tr>
+    </table>
+    </form>
+
+    <!--Phần 2: Form đăng ký học viên-->
+    <table>
+        <h2>Đăng ký học viên</h2>
+        <form action="">
+            <tr>
+                <th>Họ và tên </th>
+                <td><input type="text" name="name" id=""></td>
+            </tr>
+            <tr>
+                <th>Ngày sinh </th>
+                <td><input type="date" name="day"></td>
+            </tr>
+            <tr>
+                <th>Giới tính </th>
+                <td><input type="radio" name="gender">Nam</td>
+                <td><input type="radio" name="gender">Nữ</td>
+            </tr>
+            <tr>
+                <th>Địa chỉ </th>
+                <td><textarea name="address" id="" cols="30" rows="2"></textarea></td>
+            </tr>
+            <tr>
+                <th>Lớp </th>
+                <td>
+                    <select name="" id="class">
+                        <option value="1">Front-end Developer</option>
+                        <option value="2">Back-end Developer</option>
+                        <option value="3">Data analyst</option>
+                        <option value="4">Mobile apps</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Email </th>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <th>Điện thoại </th>
+                <td><input type="tel" name="phone"></td>
+            </tr><br>
+            <tr>
+                <td></td>
+                <td><button type="submit">Đăng ký</button></td>
+                <td><button type="reset">Nhập lại</button></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
