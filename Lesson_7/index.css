@@ -1,0 +1,47 @@
+#header {
+    background-color: rgb(172, 108, 172);
+    height: 100px;
+}
+#main {
+    background-color: #FF9686;
+    height: 500px;
+    float: left;
+    width: 70%;
+    overflow: auto;
+}
+#side-bar {
+    background-color: #007A78;
+    height: 500px;
+    float: left;
+    width: 30%;
+}
+#footer {
+    background-color: rgb(87, 80, 71);
+    height: 100px;
+    clear: both;
+}
+body {
+    background-image: url(img/1595129815_116_Share-Hinh-anh-mung-ngay-2010-danh-tang-cac-chi.jpg);
+}
+#header, #main, #side-bar, #footer {
+    opacity: 0.8;
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+h3 {
+    color: #FFC745;
+    font-family: monospace;
+}
+p {
+    color: #000000;
+    text-align: center;
+}
+.i1 {
+    height: 100px;
+}
+.i2 {
+    width: 100%;
+}
+
