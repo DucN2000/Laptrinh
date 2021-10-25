@@ -1,0 +1,53 @@
+header {
+    background-color: rgb(170, 179, 158);
+    height: 100px;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: auto;
+    height: 600px;
+}
+aside {
+    background-color: rebeccapurple;
+    height: 600px;
+    width: 30%;
+    float: left;
+    overflow: scroll;
+}
+article {
+    height: 600px;
+    width: 70%;
+    float: left;
+}
+
+footer {
+    clear: both;
+    background-color: slategray;
+    height: 30px;
+}
+.logo {
+    background-color: rgb(61, 126, 126);
+    height: 70px;
+    margin-bottom: 20px;
+}
+nav {
+    background-color: rgb(249 246 246);
+    height: 30px;
+    text-align: center;
+}
+.logo > img {
+    height: 100%;
+}
+article > iframe {
+    width: 560px;
+    height: 315px;
+    margin-left: 20%;
+}
+footer > p {
+    text-align: left;
+}
+article > p {
+    padding-left: 10px;
+    text-align: justify;
+}
