@@ -1,0 +1,35 @@
+div.gallery {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+}
+
+.gallery img {
+    width: 100%;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+.image {
+    float: left;
+    padding: 0 6px;
+    width: 25%;
+}
+* {
+    box-sizing: border-box;
+}
+div.paragraph {
+    font-family: monospace;
+    padding: 6px;
+}
+
+@media screen and (max-width: 700px) {
+    .image {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    .image {
+        width: 100%;
+    }
+}
