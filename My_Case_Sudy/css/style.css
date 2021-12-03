@@ -218,7 +218,7 @@ figure.snip0016:hover figcaption::before {
     left: 0;
     width: 100%;
     height: 30%;
-    background: linear-gradient(rgba(0,0,0,.5),#efefef), url("img/pic-3.jpg");
+    background: linear-gradient(rgba(0,0,0,.5),#efefef), url("../img/pic-3.jpg");
     content: '';
     z-index: 1;
 }
@@ -404,7 +404,7 @@ hr {
 .cover {
     width: 100%;
     height: 55vmin;
-    background: url(img/trek\ 1.jpg);
+    background: url(../img/trek\ 1.jpg);
     background-position: -24rem -19rem;
     background-size: 150%;
     position: relative;
