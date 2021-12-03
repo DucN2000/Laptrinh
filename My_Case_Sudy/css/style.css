@@ -602,4 +602,12 @@ button:hover {
     .navbar-brand {
         padding-left: 1rem;
     }
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
 }
